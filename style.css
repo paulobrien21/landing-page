@@ -68,7 +68,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bolder;
     color:#1F2937;
     width:70%;
@@ -115,6 +115,34 @@ header{
     font-size: 28px;
     margin-bottom:auto;
     height:fit-content;
+}
+.call-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:70px 0;
+}
+.call{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    padding:40px 30px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+.call p,h3{
+    padding:0;
+    margin:0;
+    color:#F9FAF8;
+}
+.call h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.call button{
+    border-color: #F9FAF8;
+    border-style: outset;
 }
 button{
     background-color: #3882F6;
